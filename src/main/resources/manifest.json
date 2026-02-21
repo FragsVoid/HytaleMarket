@@ -1,8 +1,8 @@
 {
   "Group": "dev.hytalemodding",
-  "Name": "ExamplePlugin",
+  "Name": "HytaleMarket",
   "Version": "1.0.0",
-  "Description": "Description of your plugin",
+  "Description": "Creates a virtual market for players",
   "Authors": [
     {
       "Name": "Your Name",
@@ -15,6 +15,6 @@
   "Dependencies": {},
   "OptionalDependencies": {},
   "DisabledByDefault": false,
-  "IncludesAssetPack": false,
-  "Main": "dev.hytalemodding.ExamplePlugin"
+  "IncludesAssetPack": true,
+  "Main": "dev.hytalemodding.HytaleMarket"
 }

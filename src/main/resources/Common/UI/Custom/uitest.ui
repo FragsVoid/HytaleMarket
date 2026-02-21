@@ -1,0 +1,35 @@
+Group {
+  Background: (Color: #111111(0.8));
+  LayoutMode: Middle;
+
+  Group #MarketPanel {
+    Anchor: (Width: 800, Height: 600);
+    Background: #2a2a2a;
+    Padding: 20;
+
+    Group {
+      LayoutMode: Top;
+      Anchor: (Height: 50, Top: 0, Left: 0, Right: 0);
+
+      Label #Title {
+        Text: "MARKET";
+        Style: (
+          FontSize: 36,
+          TextColor: #FFD700, /* Color dorado para el título */
+          FontName: "Secondary",
+          RenderBold: true,
+          HorizontalAlignment: Center,
+          VerticalAlignment: Center
+        );
+      }
+    }
+
+    Group #ShopContainer {
+      Anchor: (Top: 60, Bottom: 0, Left: 0, Right: 0);
+
+      LayoutMode: LeftCenterWrap;
+
+      Padding: (Top: 10);
+    }
+  }
+}

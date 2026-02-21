@@ -1,0 +1,32 @@
+Group {
+    LayoutMode: Center;
+
+    Button #MainButton {
+        Anchor: (Width: 100, Height: 120);
+        Background: (Color: #444444(0.8));
+        Visible: true;
+
+        Group {
+            LayoutMode: Center;
+            Anchor: (Top: 10, Height: 70, Width: 100);
+
+            ItemSlot #Icon {
+                Anchor: (Width: 64, Height: 64);
+
+                ShowQualityBackground: true;
+                ShowQuantity: false;
+            }
+        }
+
+        Label #QuantityLabel {
+              Anchor: (Height: 30, Bottom: 5, Left: 0, Right: 0);
+              Text: "";
+              Style: (
+                FontSize: 18,
+                HorizontalAlignment: Center,
+                TextColor: #FFFFFF,
+                RenderBold: true
+              );
+        }
+    }
+}
